@@ -8,7 +8,7 @@ form.addEventListener("submit", async (event) => {
 
   const date = dateInput.value;
 
-  // Clear previous results
+ 
   photoDisplay.innerHTML = "";
   errorDisplay.innerText = "";
 
