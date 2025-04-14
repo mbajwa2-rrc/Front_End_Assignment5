@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mars Rover Photo Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mars Rover Photo Explorer</h1>
+    <p>Select a date to view photos taken by the Curiosity Rover on Mars.</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="date">Earth Date (YYYY-MM-DD):</label>
+      <input type="date" id="date" name="date" required />
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="error" role="alert" aria-live="polite"></section>
+    <section id="photoDisplay" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>Powered by NASA's Mars Rover API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
