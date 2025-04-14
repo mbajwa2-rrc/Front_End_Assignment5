@@ -7,3 +7,6 @@ Adding index file, Css file, Styles file
 # Checking Functinality 
 Launch the index file to see functionality
 
+# Zipping up files
+Arranging files in proper zip
+ 
